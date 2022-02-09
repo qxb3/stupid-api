@@ -1,0 +1,20 @@
+{
+  "name": "stupid-apis",
+  "description": "A collection of stupid apis",
+  "author": "qxb3",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint \"./**/*.js\"",
+    "start": "yarn lint && node src/index.js",
+    "dev": "yarn lint && nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "nodemon": "^2.0.15"
+  }
+}
