@@ -8,7 +8,7 @@
   "scripts": {
     "lint": "eslint \"./**/*.js\"",
     "start": "yarn lint && node src/index.js",
-    "dev": "nodemon src/index.js --exec \"yarn lint\""
+    "dev": "nodemon --exec \"yarn lint && node src/index.js\""
   },
   "dependencies": {
     "express": "^4.17.2"
