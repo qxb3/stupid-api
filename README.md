@@ -12,6 +12,10 @@ A collection of stupid apis
 
 ## Documentation
 
+Test the api here: [Stupid Apis](https://stupid-apis-production.up.railway.app/api/isEven/2)
+
+-----
+
 Check if the number is even
 ```
 /api/isEven/41
@@ -46,6 +50,8 @@ Divides two number
 ```
 /api/divide?firstNum=5&secondNum=10
 ```
+
+-----
 
 ### Output
 All of the endpoints follow the similar output<br><br>
