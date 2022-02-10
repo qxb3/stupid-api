@@ -26,5 +26,5 @@ const loadRoutes = () => {
 loadRoutes()
 
 app.listen(port, () => {
-  console.log(`Useless api is running! Listening to port ${port}`)
+  console.log(`Stupid api is running! Listening to port ${port}`)
 })
