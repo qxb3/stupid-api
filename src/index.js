@@ -17,11 +17,10 @@ const loadRoutes = () => {
     require(`./apis/${file}`)(router)
   })
 
-  router.get('*', (req, res) => {
+  app.use('/api', router)
+  app.get('*', (req, res) => {
     res.status(404).send(Errors.INVALID_ROUTE)
   })
-
-  app.use('/api', router)
 }
 
 loadRoutes()
