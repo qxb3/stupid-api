@@ -18,6 +18,11 @@ const loadRoutes = () => {
   })
 
   app.use('/api', router)
+
+  app.get('/', (req, res) => {
+    res.redirect('https://github.com/qxb3/stupid-apis#Documentation')
+  })
+
   app.get('*', (req, res) => {
     res.status(404).send(Errors.INVALID_ROUTE)
   })
