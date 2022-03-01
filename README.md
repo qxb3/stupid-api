@@ -1,6 +1,6 @@
-# Stupid apis
+# Stupid api
 
-A collection of stupid apis
+Just a stupid api
 
 # Getting started
 ### Table of contents
